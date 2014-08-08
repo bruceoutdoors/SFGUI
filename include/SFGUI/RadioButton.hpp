@@ -17,7 +17,7 @@ class SFGUI_API RadioButton : public CheckButton {
 
 		/** Radio Button group.
 		 */
-		class RadioButtonGroup {
+		class SFGUI_API RadioButtonGroup {
 			public:
 				typedef std::shared_ptr<RadioButtonGroup> Ptr; //!< Shared pointer.
 				typedef std::shared_ptr<const RadioButtonGroup> PtrConst; //!< Shared pointer to const.
